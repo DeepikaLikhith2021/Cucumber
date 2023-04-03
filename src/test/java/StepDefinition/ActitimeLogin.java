@@ -15,6 +15,7 @@ import io.cucumber.java.en.When;
 
 public class ActitimeLogin {
 	WebDriver driver;
+	//login to application
 	@Given("User launches browser and enters Actitime URL")
 	public void user_launches_browser_and_enters_actitime_url() {
 	   driver=new ChromeDriver();
